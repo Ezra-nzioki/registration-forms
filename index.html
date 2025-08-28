@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <header>
+        <h1>User Registration Form </h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="first_name">First Name:</label>
+                <input type="text" name="" id="first_name">
+                <br><br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="" id="last_name">
+                <br><br>
+                <label for="date_of_birth">Date of Birth:</label>
+                <input type="date" name="" id="date_of_birth">
+                <br><br>
+                <label for="age">Age:</label>
+                <input type="number" name="" id="age">
+                <br><br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio"id="gender">Male <br>
+                <input type="radio"id="gender">Female
+                <br><br>
+                <label for="photo">Profile Photo:</label>
+                <input type="file" id="photo">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="email">Email Address:</label>
+                <input type="email" name="" id="email">
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="" id="phone">
+                <br><br>
+                <label for="website">Personal website:</label>
+                <input type="text" name="" id="website" placeholder="https://example.com">
+                <br><br>
+                <label for="address">Street Address:</label>
+                <input type="text" name="" id="address">
+                <br><br>
+                <label for="city">City:</label>
+                <input type="text" name="" id="city">
+                <br><br>
+                <label for="city">Country:</label>
+                <select  id="city">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                    <option value="india">India</option>
+                </select>
+                <br><br>
+                <label for="zip">Zip / Postal Code:</label>
+                <input type="text" name="" id="zip">
+                <br><br>
+                <label for="time">Preferred Contact Time:</label>
+                <input type="time" name="" id="time">
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences & Interests</legend>
+                <label for="color">Favorite Color:</label>
+                <input type="color" name="" id="color">
+                <br><br>
+                <label for="experience">Experience Level(1-10):</label>
+                <input type="range" name="" id="experience" min="1" max="10">
+                <br><br>
+                <label for="month">Birth month:</label>
+                <input type="month" name="" id="month">
+                <br><br>
+                <label for="availability">Available week:</label>
+                <input type="week" name="" id="availability">
+                <br><br>
+                <label for="search">Search Keyword:</label>
+                <input type="search" name="" id="search" placeholder="Enter keyword">
+                <br><br>
+                <label for="interests">Interests(Select all that apply):</label> <br>
+                <input type="checkbox" name="" id="interests">Sports <br>
+                <input type="checkbox" name="" id="interests">Music <br>
+                <input type="checkbox" name="" id="interests">Travel <br>
+                <input type="checkbox" name="" id="interests">Reading <br>
+                <input type="checkbox" name="" id="interests">Gaming
+                <br><br>
+                <label for="education">Education Level:</label>
+                <select id="education">
+                    <option value="highschool">High School</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                    <option value="phd">PhD</option>
+                </select>
+                <br><br>
+                <label for="create_password">Create Password:</label>
+                <input type="password" name="" id="create_password">
+                <br><br>
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" name="" id="confirm_password">
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback & Additional Informaton</legend>
+                <label for="about">Tell us about yourself:</label>
+                <br>
+                <textarea name="" id="about" cols="30" rows="5" placeholder="Write something about yourself..."></textarea>
+                <br><br>
+                <label for="comments">Suggestions for improvement:</label>
+                <br>
+                <textarea name="" id="comments" cols="30" rows="5" placeholder="Any suggestions or feedbacks..."></textarea>
+                <br><br>
+                <label for="registration">Registration Date & Time:</label>
+                <input type="datetime-local" name="" id="registration">
+                <br><br>
+                <label for="hear">How did you hear about us?</label>
+                <select id="hear">
+                    <option value="social_media">Social Media</option>
+                    <option value="friend">Friend</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="search_engine">Search Engine</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+                <label for="subscribe"></label>
+                <input type="checkbox" id="subscribe">Subscribe to our newsletter
+                <br><br>
+                <label for="terms"></label>
+                <input type="checkbox" id="terms">I agree to the terms and conditions
+                <br><br>
+                <label for="policy"></label>
+                <input type="checkbox" id="policy">I agree to the privacy policy
+            </fieldset>
+            <br>
+            <input type="button" value="Register">
+            <input type="button" value="Clear Form">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 User Registration Form. All rights reserved.</p>
+        <p>Contact us at: <a href="mailto:ezranzioki@gmail.com">ezra nzioki</a></p> 
+    </footer>
+</body>
+</html>
